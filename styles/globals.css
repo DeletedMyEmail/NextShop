@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom Tailwind */
+
+.mb--100 {
+  margin-top: -100px;
+}
+
+.scale-400 {
+  transform: scale(4);
+}
+
+/* --------------- */
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;

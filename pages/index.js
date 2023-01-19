@@ -1,9 +1,13 @@
+import TopSection from "@/components/home/topsection";
+import MiddleSection from "@/components/home/middlesection";
+import OverflowSection from "@/components/home/overflowsection";
+
 function Home() {
   return (
-      <div>
-          <h1>Home</h1>
-          <button className="btn--alt btn">btn</button>
-
+      <div className="bg-gray-50 h-screen w-screen p-0 m-0 ">
+          <TopSection/>
+          <OverflowSection/>
+          <MiddleSection/>
       </div>
   )
 }
