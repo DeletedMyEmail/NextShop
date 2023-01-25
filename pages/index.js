@@ -4,7 +4,7 @@ import OverflowSection from "@/components/home/overflowsection";
 
 function Home() {
   return (
-      <div className="bg-gray-50 h-screen w-screen p-0 m-0 ">
+      <div className="bg-gray-50 text-gray-50 h-screen w-screen p-0 m-0 ">
           <TopSection/>
           <OverflowSection/>
           <MiddleSection/>

@@ -6,8 +6,8 @@ function TopSection() {
                 <h2 className="text-left text-2xl font-serif font-bold">The best way to shop online</h2>
             </div>
 
-            <div className="rounded-3xl border-gray-50 border-4 h-2/5 w-2/5">
-
+            <div className="rounded-3xl border-gray-50 overflow-hidden border-4 h-2/5 w-2/5">
+                <img src="cutePenguinArt_transparent.png"/>
             </div>
 
             <div className="m-auto">
